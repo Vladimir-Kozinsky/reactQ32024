@@ -1,0 +1,81 @@
+.menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background: rgb(171, 211, 252);
+    border-radius: 0px 0px 15px 15px;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.menu__dark {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background: rgb(148, 148, 148);
+    border-radius: 0px 0px 15px 15px;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.menu__active {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background: rgb(171, 211, 252);
+    border-radius: 0px 0px 15px 15px;
+    bottom: -55px;
+    right: 0px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+.menu__active__dark {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background: rgb(148, 148, 148);
+    border-radius: 0px 0px 15px 15px;
+    bottom: -55px;
+    right: 0px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    .count {
+        color: white;
+        border: white solid;
+    }
+}
+
+.count {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(54, 148, 224);
+    display: block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: rgb(51, 148, 245) 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    position: absolute;
+    display: none;
+}

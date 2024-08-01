@@ -1,0 +1,39 @@
+.pagenator {
+    a {
+        margin-left: 10px;
+        text-decoration: none;
+
+        &:first-child {
+            margin-left: 0px;
+        }
+    }
+
+    .active {
+        color: red;
+    }
+
+    .pending {
+        color: gray;
+    }
+
+}
+
+.pagenator__dark {
+    a {
+        margin-left: 10px;
+        text-decoration: none;
+        color: white;
+
+        &:first-child {
+            margin-left: 0px;
+        }
+    }
+
+    .active {
+        color: rgb(255, 113, 113);
+    }
+
+    .pending {
+        color: gray;
+    }
+}

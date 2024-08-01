@@ -1,0 +1,61 @@
+.people {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.people__active {
+    margin-bottom: 100px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(140, 201, 255);
+}
+.container__dark {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(122, 122, 122);
+}
+
+.panel {
+    flex-grow: 1;
+}
+
+.persone__block {
+    display: flex;
+    gap: 10px;
+}
+
+.status__block {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+
+
+
+    span {
+        color: red;
+        font-weight: 800;
+        font-size: 40px;
+
+        &:first-child {
+            color: black;
+        }
+    }
+}

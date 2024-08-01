@@ -1,0 +1,29 @@
+.button {
+    width: 120px;
+    height: 34px;
+    background-color: rgb(133, 184, 226);
+    border-radius: 15px;
+    border-color: rgb(125, 168, 206);
+    color: rgb(26, 34, 68);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(147, 202, 248);
+    }
+}
+
+.button__dark {
+    width: 120px;
+    height: 34px;
+    border-radius: 15px;
+    background-color: rgb(121, 121, 121);
+    border-color: rgb(121, 121, 121);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(2, 94, 170);
+    }
+}
