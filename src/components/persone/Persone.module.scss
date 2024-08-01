@@ -1,0 +1,53 @@
+.persone {
+    width: 220px;
+    gap: 7px;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(140, 201, 255);
+    display: flex;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.persone__dark {
+    width: 220px;
+    display: flex;
+    gap: 7px;
+    background-color: rgb(128, 127, 127);
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(122, 122, 122);
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.persone__data {
+    display: flex;
+    gap: 10px;
+}
+
+.persone__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.ckeckbox__block {
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        margin: 0;
+        padding: 0;
+        width: 18px;
+        height: 18px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
